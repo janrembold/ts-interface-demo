@@ -6,7 +6,7 @@
   "author": "janrembold <janrembold@gmx.net>",
   "license": "MIT",
   "dependencies": {
-    "typescript": "3.7.2"
+    "typescript": "3.8.3"
   },
   "scripts": {
     "start": "tsc index.ts"

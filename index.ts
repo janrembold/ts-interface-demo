@@ -18,4 +18,4 @@ const test: Combined = {
 };
 
 const { title, valueA = "" }: Combined = test;
-// Property 'bar' does not exist on type 'IFooTypes'. TS2339
+// index.ts:20:16 - error TS2339: Property 'valueA' does not exist on type 'Combined'.
