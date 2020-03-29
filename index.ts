@@ -17,5 +17,8 @@ const test: Combined = {
   valueA: "bar"
 };
 
+// works fine
+console.log(test.valueA);
+
+// Results in: index.ts:20:16 - error TS2339: Property 'valueA' does not exist on type 'Combined'.
 const { title, valueA = "" }: Combined = test;
-// index.ts:20:16 - error TS2339: Property 'valueA' does not exist on type 'Combined'.
